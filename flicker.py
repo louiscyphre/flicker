@@ -28,7 +28,7 @@ thresholdValue = 25
 rounds = 500
 subsetRatio = 40
 fps = 30
-outputFilename = 'tests/sky.mp4'
+outputFilename = 'sky.mp4'
 
 height, width, layers = orig.shape
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
